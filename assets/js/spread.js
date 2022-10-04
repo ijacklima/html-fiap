@@ -19,9 +19,9 @@ const [latam, gol, azul, ...internacionais] = airCompanies;
 console.log(airCompanies);
 
 const user = {
-  name: "Glaucio Daniel",
-  email: "glauciodaniel@gmail.com",
-  password: "1235454665465464656655465",
+  name: "Jack Lima",
+  email: "teste@teste.com",
+  password: "1235454465",
 };
 
 //destructuring assignment
