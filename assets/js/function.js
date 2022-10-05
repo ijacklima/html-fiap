@@ -1,14 +1,11 @@
 const resultado = document.querySelector("#resultado");
 
-//arrow function não acessa 'arguments'
-
 let myFunc = {
-  showArguments() {
+  showArguments(){
     resultado.innerHTML = arguments;
     console.log(arguments);
-  },
-};
-
+  }
+}
 myFunc.showArguments(
   "BMW",
   "AUDI",
@@ -35,7 +32,7 @@ let myFunc2 = {
 // );
 
 let user = {
-  name: "Glaucio Daniel",
+  name: "Jack Lima",
   usandoArrow: () => {
     console.log(`Meu nome é ${this.name}, com Arrow Function.`);
   },
